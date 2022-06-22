@@ -1,0 +1,19 @@
+button[aria-expanded="false"]>.close {
+    display: none;
+}
+
+button[aria-expanded="true"]>.open {
+    display: none;
+}
+
+.navbar-toggler {
+    border: none !important;
+    color: #333 !important;
+    font-size: 30px !important;
+}
+
+.navbar-toggler:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+}
